@@ -1,0 +1,1 @@
+This is my implementation of Conway's Game of Life. Included is a folder with more than a hundred initial patterns found in the web, some of which have been adapted to fit in our wrap-around universe of 900 x 600 pixels (variable grid sizes of 90 x 60 to 450 x 300 cells) and produce quite interesting effects, machines, or perpetuum mobiles. Try it, download is 58 kB.

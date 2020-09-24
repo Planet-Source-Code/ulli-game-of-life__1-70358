@@ -1,0 +1,15 @@
+Rules for creating the next Generation
+
+The cells' universe consists of a rectangular grid forming square boxes, and it wraps around horizontally and vertically; that is each box in the top row also has three neighboring boxes in the bottom row and vice versa, and similarly each box in the leftmost column also has three neighbors in the rightmost column and vice versa. Neighbors in this context are the eight boxes surrounding the particular box. Boxes can contain a living or a dead cell or can be unpopulated.
+
+  for boxes that contain a living cell: 
+
+    - each cell with no or one living neighbor dies of loneliness. 
+    - each cell with four or more living neighbors dies due to overpopulation.  
+    - each cell with two or three living neighbors survives; under these favorable conditions cells live forever.
+
+  for boxes that are unpopulated or contain a dead cell:
+
+    - each box with exactly three living neighbors gives birth to a living cell. 
+
+The next generation is established after examining every box of the current generation.
