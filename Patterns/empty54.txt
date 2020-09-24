@@ -1,0 +1,11 @@
+s=20
+w=3
+h=7
+
+ooo
+o.o
+o.o
+.
+o.o
+o.o
+ooo

@@ -1,0 +1,25 @@
+"Spaceship leaving a trail of Blinkers, plus a Blinker Eater follwing the 
+"Spaceship. The Blinker Eater moves slower than the Spaceship, so eventually 
+"the Spaceship catches up and collides with it (remember: we have a 
+"toroidal universe), but is destroyed by the collison. The Blinker Eater
+"continues eating the remaining Blinkers and then dies of starvation.
+
+s=49
+w=27
+h=15
+
+..........****
+..........*...*
+..........*
+.**........*..*
+**.**
+.****...*
+..**...*.**........*....***
+......*...*........*....*.*
+..**...*.**........*....***
+.****...*
+**.**
+.**........*..*
+..........*
+..........*...*
+..........****
